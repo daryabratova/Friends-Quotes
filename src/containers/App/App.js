@@ -1,8 +1,7 @@
 import React from "react";
-import "./App.css";
 import { Quote } from "../Quote";
 
-export function App() {
+export const App = () => {
   return (
     <div className="App">
       <Quote />
