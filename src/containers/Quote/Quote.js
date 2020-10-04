@@ -28,7 +28,7 @@ export const Quote = () => {
           getNextQuote();
         }}
       >
-        Next
+        Next quote
       </button>
     </div>
   );
