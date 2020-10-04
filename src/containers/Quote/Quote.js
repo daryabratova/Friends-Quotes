@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { charactersImages } from "../../data/charactersImages";
 import "./Quote.scss";
 
 export const Quote = () => {
@@ -20,9 +21,12 @@ export const Quote = () => {
     return <div>Loading...</div>;
   }
 
+  const characterImage = charactersImages[quote.character];
+
   return (
     <div className="">
       {quote.quote} ({quote.character})
+      <img src={characterImage} alt="character"></img>
       <button
         onClick={() => {
           getNextQuote();
