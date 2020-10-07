@@ -24,16 +24,23 @@ export const Quote = () => {
   const characterImage = charactersImages[quote.character];
 
   return (
-    <div className="">
-      {quote.quote} ({quote.character})
-      <img src={characterImage} alt="character"></img>
-      <button
-        onClick={() => {
+    <div className="layout">
+      <div className="quote">
+        <span className="quote__text">
+          {quote.quote} 
+          <p className="quote__text-character">{quote.character}</p>
+        </span>
+          <img className="quote__image" src={characterImage} alt="character"></img>
+      </div>
+      <div className="next-quote">
+      <button className="next-quote__button"
+         onClick={() => {
           getNextQuote();
         }}
       >
         Next quote
       </button>
+      </div>
     </div>
   );
 };

@@ -1,0 +1,72 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+.layout {
+  min-height: 100vh;
+  background: url("../../flat2.jpg") no-repeat center;
+  display: grid;
+  place-content: center;
+}
+
+.quote {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  place-content: center;
+
+  &__text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(133, 78, 42);
+    font-size: 21px;
+    font-weight: bold;
+    padding: 0 18px;
+
+    &-character {
+      margin-top: 8px;
+      font-size: 20px;
+      font-style: italic;
+      color: rgb(194, 99, 36);
+    }
+  }
+
+  &__image {
+    width: 180px;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+
+.next-quote {
+  margin: 26px auto 0;
+  text-align: center;
+
+  &__button {
+    background: rgb(184, 116, 70);
+    color: wheat;
+    width: 110px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border: solid;
+    border-radius: 28px;
+
+    &:hover,
+    &:focus,
+    &:active {
+      background: rgb(160, 97, 55);
+      transition: 0.1s linear;
+      cursor: pointer;
+    }
+  }
+}
