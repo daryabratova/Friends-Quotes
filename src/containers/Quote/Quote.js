@@ -27,8 +27,8 @@ export const Quote = () => {
     <div className="layout">
       <div className="quote">
         <span className="quote__text">
-          {quote.quote} 
-          <p className="quote__text-character">{quote.character}</p>
+          "{quote.quote}" 
+          <p className="quote__text-character">- {quote.character}</p>
         </span>
           <img className="quote__image" src={characterImage} alt="character"></img>
       </div>

@@ -70,3 +70,52 @@ html {
     }
   }
 }
+
+@media screen and (min-width: 960px) {
+  .layout {
+    background: url("../../unnamed.jpg") no-repeat center;
+
+    .quote {
+      width: 940px;
+      height: 300px;
+      grid-template-columns: 2fr 1fr;
+      background: cornsilk;
+      box-shadow: 0 0 10px rgba(102, 101, 101, 0.5);
+
+      &__text {
+        margin-top: 45px;
+        color: #546459;
+        font-size: 28px;
+        font-style: italic;
+
+        &-character {
+          margin-top: 18px;
+          font-size: 24px;
+          color: #90b49d;
+        }
+      }
+
+      &__image {
+        width: 220px;
+      }
+    }
+  }
+
+  .next-quote {
+    margin: 36px auto 0;
+
+    &__button {
+      background: #e90856;
+      color: cornsilk;
+      width: 180px;
+      height: 60px;
+      font-size: 22px;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: #ce074d;
+      }
+    }
+  }
+}
