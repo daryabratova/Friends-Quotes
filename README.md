@@ -1,11 +1,11 @@
-# Friends Quotes :heart:
+# Friends Quotes :green_heart:
 **Website with random quotes from the characters of the TV series "Friends".**
 
 
 ## Table of contents
   - [General Info](#general-info)
   - [Demo](#demo)
-  - [Technologies(#technologies)
+  - [Technologies](#technologies)
   - [Resourses](#resourses)
 
 
