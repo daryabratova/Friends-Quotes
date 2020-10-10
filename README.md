@@ -5,7 +5,7 @@
 ## Table of contents
   - [General Info](#general-info)
   - [Demo](#demo)
-  - [Languages & Tools](#languages--tools)
+  - [Technologies(#technologies)
   - [Resourses](#resourses)
 
 
