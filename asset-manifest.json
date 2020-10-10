@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/friends-quotes/static/css/main.f3743a84.chunk.css",
-    "main.js": "/friends-quotes/static/js/main.5a26da97.chunk.js",
-    "main.js.map": "/friends-quotes/static/js/main.5a26da97.chunk.js.map",
-    "runtime-main.js": "/friends-quotes/static/js/runtime-main.8d7578d2.js",
-    "runtime-main.js.map": "/friends-quotes/static/js/runtime-main.8d7578d2.js.map",
-    "static/js/2.0254c3f5.chunk.js": "/friends-quotes/static/js/2.0254c3f5.chunk.js",
-    "static/js/2.0254c3f5.chunk.js.map": "/friends-quotes/static/js/2.0254c3f5.chunk.js.map",
+    "main.css": "/friends-quotes/static/css/main.fdb0e8f1.chunk.css",
+    "main.js": "/friends-quotes/static/js/main.47ef72d6.chunk.js",
+    "main.js.map": "/friends-quotes/static/js/main.47ef72d6.chunk.js.map",
+    "runtime-main.js": "/friends-quotes/static/js/runtime-main.3a946970.js",
+    "runtime-main.js.map": "/friends-quotes/static/js/runtime-main.3a946970.js.map",
+    "static/js/2.101e2c32.chunk.js": "/friends-quotes/static/js/2.101e2c32.chunk.js",
+    "static/js/2.101e2c32.chunk.js.map": "/friends-quotes/static/js/2.101e2c32.chunk.js.map",
     "index.html": "/friends-quotes/index.html",
-    "precache-manifest.282dd3de915d55088d6f4ab7632a0937.js": "/friends-quotes/precache-manifest.282dd3de915d55088d6f4ab7632a0937.js",
+    "precache-manifest.def9703ed7db9cb3d079a9c0d5265cbd.js": "/friends-quotes/precache-manifest.def9703ed7db9cb3d079a9c0d5265cbd.js",
     "service-worker.js": "/friends-quotes/service-worker.js",
-    "static/css/main.f3743a84.chunk.css.map": "/friends-quotes/static/css/main.f3743a84.chunk.css.map",
-    "static/js/2.0254c3f5.chunk.js.LICENSE.txt": "/friends-quotes/static/js/2.0254c3f5.chunk.js.LICENSE.txt"
+    "static/css/main.fdb0e8f1.chunk.css.map": "/friends-quotes/static/css/main.fdb0e8f1.chunk.css.map",
+    "static/js/2.101e2c32.chunk.js.LICENSE.txt": "/friends-quotes/static/js/2.101e2c32.chunk.js.LICENSE.txt",
+    "static/media/Chandler.png": "/friends-quotes/static/media/Chandler.259b70b4.png",
+    "static/media/Joey.png": "/friends-quotes/static/media/Joey.224ed613.png",
+    "static/media/Monica.png": "/friends-quotes/static/media/Monica.2fba11d1.png",
+    "static/media/Phoebe.png": "/friends-quotes/static/media/Phoebe.4261787e.png",
+    "static/media/Rachel.png": "/friends-quotes/static/media/Rachel.57f36e50.png",
+    "static/media/Ross.png": "/friends-quotes/static/media/Ross.a5204c05.png",
+    "static/media/Quote.scss": "/friends-quotes/static/media/mobilebg.d86fec6b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.8d7578d2.js",
-    "static/js/2.0254c3f5.chunk.js",
-    "static/css/main.f3743a84.chunk.css",
-    "static/js/main.5a26da97.chunk.js"
+    "static/js/runtime-main.3a946970.js",
+    "static/js/2.101e2c32.chunk.js",
+    "static/css/main.fdb0e8f1.chunk.css",
+    "static/js/main.47ef72d6.chunk.js"
   ]
 }
