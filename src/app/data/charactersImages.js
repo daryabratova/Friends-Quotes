@@ -1,9 +1,9 @@
-import Rachel from "../assets/characters/Rachel.png";
-import Ross from "../assets/characters/Ross.png";
-import Phoebe from "../assets/characters/Phoebe.png";
-import Monica from "../assets/characters/Monica.png";
-import Chandler from "../assets/characters/Chandler.png";
-import Joey from "../assets/characters/Joey.png";
+import Rachel from "../assets/images/character-rachel.png";
+import Ross from "../assets/images/character-ross.png";
+import Phoebe from "../assets/images/character-phoebe.png";
+import Monica from "../assets/images/character-monica.png";
+import Chandler from "../assets/images/character-chandler.png";
+import Joey from "../assets/images/character-joey.png";
 
 export const charactersImages = {
   Rachel,
