@@ -18,15 +18,15 @@ body {
 
 .app {
   &__layout {
-    min-height: 100vh;
-    background: url("../../assets/images/background-mobile.jpg") no-repeat
-      center;
     display: grid;
     place-content: center;
+    min-height: 100vh;
+    background-image: url("../../assets/images/background-mobile.jpg");
+    background-position: center;
+    background-size: cover;
 
     @media screen and (min-width: 600px) {
-      background: url("../../assets/images/background-desktop.jpg") no-repeat
-        center;
+      background-image: url("../../assets/images/background-desktop.jpg");
     }
   }
 }

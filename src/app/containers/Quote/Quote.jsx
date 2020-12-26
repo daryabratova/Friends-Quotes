@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
+
 import { charactersImages } from "../../data/charactersImages";
 
 import { cn } from "../../helpers/classname";
+
+import { Loader } from "../../components/Loader";
 
 import "./Quote.scss";
 
@@ -24,7 +27,7 @@ export const Quote = () => {
   }, []);
 
   if (quote === null) {
-    return <div>Loading...</div>;
+    return <Loader />;
   }
 
   const characterImage = charactersImages[quote.character];
@@ -32,10 +35,10 @@ export const Quote = () => {
   return (
     <div>
       <div className={quoteClassName("layout")}>
-        <span className={quoteClassName("text")}>
+        <div className={quoteClassName("text")}>
           "{quote.quote}"
-          <p className={quoteClassName("character")}>- {quote.character}</p>
-        </span>
+          <div className={quoteClassName("character")}>- {quote.character}</div>
+        </div>
         <img
           className={quoteClassName("character-image")}
           src={characterImage}

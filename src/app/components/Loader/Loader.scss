@@ -1,0 +1,31 @@
+.loader {
+  &__layout {
+    height: 56px;
+    text-align: center;
+  }
+
+  &__body {
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    border: 5px solid;
+    border-radius: 50%;
+    border-color: rgb(255, 248, 220);
+    animation: cssload-scale 1035ms infinite linear;
+  }
+}
+
+@keyframes cssload-scale {
+  0% {
+    transform: scale(0);
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(0.7);
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+    transform: scale(1);
+  }
+}
