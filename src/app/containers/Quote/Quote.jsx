@@ -22,9 +22,7 @@ export const Quote = () => {
       });
   };
 
-  useEffect(() => {
-    getNextQuote();
-  }, []);
+  useEffect(getNextQuote, []);
 
   if (quote === null) {
     return <Loader />;
@@ -46,12 +44,7 @@ export const Quote = () => {
         />
       </div>
       <div className={nextClassName("button-layout")}>
-        <button
-          className={nextClassName("button")}
-          onClick={() => {
-            getNextQuote();
-          }}
-        >
+        <button className={nextClassName("button")} onClick={getNextQuote}>
           Next quote
         </button>
       </div>
