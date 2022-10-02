@@ -2,7 +2,7 @@
   "name": "friends-quotes",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://lovelife26.github.io/friends-quotes",
+  "homepage": "https://daryabratova.github.io/Friends-Quotes/",
   "dependencies": {
     "@bem-react/classname": "^1.5.8",
     "@testing-library/jest-dom": "^4.2.4",
