@@ -4,11 +4,7 @@ Web app with random quotes of the characters from the TV series "Friends".
 
 ## Demo
 
-Online demo is available [here](https://livelife26.github.io/friends-quotes/).
-
-## General Info
-
-This is my project, where I was using API for the first time. This API provides random qoutes from "Friends" series with the names of characters, to whom the quotes belong.
+Online demo is available [here](https://daryabratova.github.io/Friends-Quotes/).
 
 ## Features
 
